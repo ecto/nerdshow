@@ -1,0 +1,33 @@
+<h1>Show.Bravo <sup>by Cam Pedersen</sup></h1>
+<h2 style="float: right;">Create Nerdery-branded HTML slideshows from Markdown!</h2>
+<p style="clear: both;">Powerpoint is clunky. You don't have to be. <a href="mailto:cpederse@nerdery.com">Email me.</a></p>
+<hr />
+
+<img src="/images/screenshot.jpg" style="float: right;" alt="AWESOME SCREENSHOT"/>
+<h2>Instructions</h2>
+<ol>
+    <li>Paste your <a href="http://daringfireball.net/projects/markdown/basics">Markdown</a> code into the textarea below.</li>
+    <li>Press Generate!</li>
+    <li>?????</li>
+    <li>Recieve .tar file with generated slideshow.</li>
+    <li>?????</li>
+    <li>Profit!</li>
+</ol>
+<p>To start a new slide, just write:</p>
+<pre>!SLIDE</pre>
+<p>Markdown image support is limited. You may use full HTML.</p>
+<hr />
+
+<h2>Example</h2>
+<pre>
+# hello
+!SLIDE
+# world
+</pre>
+<hr />
+
+<form action="/" method="post">
+    <textarea name="md" rows="30" cols="100"></textarea><br />
+    <input type="submit" value="Generate!" />
+	<label><input type="checkbox" checked name="ff" /> Insert the Nerdery logo as the first slide</label>
+</form>
